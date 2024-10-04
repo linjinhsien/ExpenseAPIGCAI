@@ -3,6 +3,9 @@
 // api path 是 /api/expense
 // GET: api/Expense
 
+using ExpenseAPI.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 public class ExpenseController : ControllerBase
 {
